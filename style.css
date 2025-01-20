@@ -1,0 +1,221 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #63D7FB;
+    width: 100%;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+#welcome{
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px;
+}
+.name{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+}
+#cnt{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#mnt {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+#hdrp2{
+    background-color: #6FC37F;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+#scndpghd{
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px;
+}
+#saffron{
+    color:#EF8636;
+}
+#white{
+    color: white
+}
+#green{
+    color: green;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex ;
+}
+.three{
+    display:flex;
+}
+.four{
+    display:flex
+}
+.five{
+    display: flex;
+}
+.six{
+    display: flex;
+}
+.para{
+    font-size: 35px;
+    padding: 20px;
+}
+.features{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 50px;
+}
+#flagS{
+    width: 100%;
+    margin: 0%;
+    padding:0%;
+}
+.last{
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 65px;   
+}
+button{
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 65px; 
+    border-radius: 70px;
+    padding: 20px;
+    background-color: #FFA0A0;
+}
+a{
+    padding: 100px;
+    float: left;
+}
+#disclamer{
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-size: 35px;   
+    margin-top: 20px; /* Use margin instead of relative positioning */
+    padding: 30px; 
+    margin-top: 120px;
+}
+#redirectedButton{
+    padding-bottom: 100px;
+    
+}
+#footer{
+    background: rgb(239,134,54);
+    background: linear-gradient(90deg, rgba(239,134,54,1) 0%, rgba(255,246,246,1) 50%, rgba(117,188,117,1) 100%);
+}
+#txtF{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+@media(max-width:950px){
+    #mnt{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    #monument1{
+        height: auto;
+        width: auto;
+        display: none;
+    }
+    #monument2{
+        height: auto;
+        width:auto
+    }
+    #monument3{
+        height: auto;
+        width: auto;
+        display:none
+    }
+
+}
+@media(max-width:850px){
+    .one{
+        display:block;
+    }
+    .two{
+        display: block ;
+    }
+    .three{
+        display:block;
+    }
+    .four{
+        display:block;
+    }
+    .five{
+        display: block;
+    }
+    .six{
+        display: block
+}
+    .features{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media(max-width:750px){
+    #monument2{
+        height:400px;
+        width:400px;
+    }
+}
+@media(max-width:650px){
+    #monument2{
+        height:300px;
+        width:300px;
+    }
+}
+@media(max-width:500px){
+    #monument2{
+        height: 200px;
+        width:200px;
+    }
+}
+@media(max-width:420px){
+    #monument2{
+        height:150px;
+        width:150px;
+    }
+}
+@media(max-width:1040px){
+    a{
+        display: flex;
+        float:none;
+        justify-content: center;
+        
+    }
+}
